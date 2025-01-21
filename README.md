@@ -5,6 +5,8 @@
 
 - **Express** para gestionar rutas y middleware.
 - **Nodemon** para recargar automáticamente el servidor durante el desarrollo.
+- **Passport** para la gestión de strategias de autorización y autenticación.
+- **Mongoose** para la conexión a MongDB y creación de modelos.
 - Configuración minimalista lista para usar.
 
 ---
