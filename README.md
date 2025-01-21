@@ -1,6 +1,5 @@
-# Plantilla de servidor básico con Express
+# Plantilla de servidor con Express-Passport 
 
-Este proyecto es una plantilla básica para configurar un servidor con **Express** y **Nodemon**, ideal para iniciar rápidamente nuevos desarrollos en Node.js.
 
 ## Características
 
@@ -76,15 +75,6 @@ Una vez completado este proceso, basta con ejecutar el siguiente comando para ac
 
 ```bash
 npm install
-```
-
-## Estructura del proyecto
-
-```plaintext
-carpeta-destino/
-├── package.json    # Dependencias y configuración del proyecto
-├── index.js       # Archivo principal del servidor
-├── README.md       # Documentación del proyecto
 ```
 
 ---
