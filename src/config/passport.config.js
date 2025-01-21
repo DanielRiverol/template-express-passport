@@ -1,17 +1,16 @@
 import passport from "passport";
 // install and import strategy (local, google,github,etc)
-import userModel from "../models/user.model";
+import userModel from "../models/user.model.js";
 const initializePassport = () => {
-
-    //Strategies
-//   passport.use(
-//     'register', 
-//     //strategy
-//   );
-//   passport.use(
-//     'login', 
-//     //strategy
-//   );
+  //Strategies
+  //   passport.use(
+  //     'register',
+  //     //strategy
+  //   );
+  //   passport.use(
+  //     'login',
+  //     //strategy
+  //   );
 
   passport.serializeUser((user, done) => {
     return done(null, user._id);
